@@ -17,5 +17,5 @@ const res = await new Promise((resolve, reject) => {
 console.log(res?.message);
 
 app.listen(port, () => {
-  console.log(`Express is listening on port: ${port}`);
+  console.log(`[Express] is listening on port: ${port}`);
 });
